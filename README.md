@@ -1,2 +1,2 @@
-# LaChouetteAgenceP4
-Projet d'étude OpenClassroom avec optimisations. 
+# LESTAGEMaxime_4_03052021
+La chouette agence : Optimisation SEO &amp; Performance
