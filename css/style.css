@@ -136,7 +136,7 @@ a:hover {
 }
 
 .l-bloc button:hover {
-  color: rgba(0, 0, 0, .7);
+  color: hsla(0, 0%, 0%, 0.7);
 }
 
 .l-bloc .a-btn,
@@ -811,6 +811,12 @@ span.partenaire {
 
 a.social {
   color: black !important;
+}
+
+.nav__color--hover:hover {
+  color: #f3976c !important;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
 }
 
 /* Fin des corrections de l'index. */
