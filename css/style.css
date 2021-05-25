@@ -813,10 +813,22 @@ a.social {
   color: black !important;
 }
 
-.nav__color--hover:hover {
+/* .nav__color--hover:hover {
   color: #f3976c !important;
   border-bottom: 1px solid;
   padding-bottom: 3px;
-}
+} */
 
 /* Fin des corrections de l'index. */
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+  text-decoration: none;
+  background-color: #f3976c !important;
+}
+
+
+
+.nav__color--hover:hover {
+  color: #000000 !important;
+}
