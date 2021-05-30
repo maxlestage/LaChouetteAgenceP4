@@ -18,6 +18,10 @@ a:hover {
   cursor: pointer;
 }
 
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
+
 .bloc {
   width: 100%;
   clear: both;
