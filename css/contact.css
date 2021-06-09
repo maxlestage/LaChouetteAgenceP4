@@ -667,3 +667,31 @@ span.icon-md:hover {
 .nav__color--hover:hover {
   color: #000000 !important;
 }
+
+
+
+
+/* AJOUT DES FOCUS SUR LA PAGE CONTACT */
+
+a.navbar-brand:focus {
+  border: 2px solid #f3976c;
+}
+
+
+button#nav-toggle:focus {
+  border: 2px solid #f3976c;
+}
+
+.btn-atomic-tangerine:focus {
+  color: #fff !important;
+  border: 2px solid black;
+}
+
+a.social:focus {
+  text-decoration: none !important;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-bottom: 8px;
+}
+
+/* FIN DES AJOUTS DE FOCUS SUR LA PAGE CONTACT  */

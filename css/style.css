@@ -527,11 +527,18 @@ h4 {
 
 .ltc-white {
   color: #fff !important;
+  text-decoration: none !important;
+  background-color: #00000042;
+  padding-bottom: 7px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 20px;
 }
 
-.ltc-white:hover {
+/* .ltc-white:hover {
   color: #ccc !important;
-}
+}  */
 
 .ltc-atomic-tangerine {
   color: #f3976c !important;
@@ -816,6 +823,94 @@ span.partenaire {
 a.social {
   color: black !important;
 }
+
+/* AJOUT DES FOCUS POUR AUGMENTER L'Accessibilité  */
+
+
+
+a.navbar-brand:focus {
+  border: 2px solid #f3976c;
+}
+
+
+button#nav-toggle:focus {
+  border: 2px solid #f3976c;
+}
+
+a.ltc-white.bold-link:hover {
+  background-color: #f3976c !important;
+  color: black !important;
+  border: 2px solid #f3976c !important;
+  padding-bottom: 7px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none !important;
+  border-radius: 20px;
+}
+
+a.ltc-white.bold-link:focus {
+  background-color: #f3976c !important;
+  color: black !important;
+  border: 2px solid #f3976c !important;
+  padding-bottom: 7px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none !important;
+  border-radius: 20px;
+}
+
+
+a[data-lightbox]:focus img {
+  opacity: .6;
+  -webkit-animation-fill-mode: none !important;
+  animation-fill-mode: none !important;
+}
+
+a[data-lightbox]:focus::before {
+  content: "+";
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+  font-size: 32px;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .6);
+  color: #fff;
+  font-weight: 100;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+
+.btn-atomic-tangerine:focus {
+  /* background: #c27956 !important; */
+  color: #fff !important;
+  border: 2px solid black;
+}
+
+a.social:focus {
+  text-decoration: none !important;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-bottom: 8px;
+}
+
+
+/* a.social:focus {
+  color: black !important;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 30px;
+} */
+
+
+/* FIN DES AJOUTS DE FOCUS SUR LINDEX  */
+
 
 /* .nav__color--hover:hover {
   color: #f3976c !important;
